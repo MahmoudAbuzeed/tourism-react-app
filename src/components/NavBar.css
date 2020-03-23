@@ -1,0 +1,19 @@
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  span {
+      color: rgb(17, 129, 173);
+      font-size: 30px;
+  }
+
+
+ .img{
+     margin-top: 100px;
+
+ }
