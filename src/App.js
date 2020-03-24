@@ -4,7 +4,7 @@ import { Container } from 'reactstrap';
 
 import { Home, Login, About, Services, Contact} from './pages'; 
 
-import { NavBar, Carousel} from './components';
+import { NavBar} from './components';
 
 
 
@@ -12,7 +12,7 @@ function App() {
   return (
     <div>
       <NavBar />
-      <Carousel />
+      
       <Container>
       
       <Switch>

@@ -1,19 +1,55 @@
 .masthead {
     height: 100vh;
     min-height: 500px;
-    background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
+    background-image: url('../images/pic1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin-bottom: 70px;
+   
+    
+  }
+  
+
+  .nav-link .color {
+    color: #BD7F44;
+  }
+  .nav-item{
+    color: #BD7F44;
+
+
+  }
+  .colorbtn {
+    font-weight: bold;
+
   }
 
-  span {
-      color: rgb(17, 129, 173);
-      font-size: 30px;
-  }
+  .span {
+    color:darkgoldenrod;
+    font-size: 30px;
+    font-weight: bold;
+}
+.text{
+    font-size: 18px;
+    color:gold;
+}
+.welcome {
+    color:gold;
+}
+ .lead{
+    color:gold;
+ }
+ span {
+    color:darkgoldenrod;
+
+ }
+  
+    
+
 
 
  .img{
      margin-top: 100px;
+     height: 100px;
 
  }
