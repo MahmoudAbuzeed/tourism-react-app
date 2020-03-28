@@ -1,5 +1,9 @@
 export * from './Home';
 export * from './Login';
-export * from './About';
-export * from './Services';
-export * from './Contact';
+export * from './Monuments';
+export * from './MonumentImages';
+export * from './PlaceImages';
+export * from './Places';
+export * from './PlacesCat';
+export * from './Category';
+

@@ -1,0 +1,23 @@
+.monument {
+    margin-top: 240px;
+    float: left;
+    cursor: pointer;
+    
+    
+   
+    
+}
+.monument span {
+    color:rgb(221, 192, 28);
+}
+.monument .dark {
+
+    background-color: #343A40 ;
+}
+
+.removeLine{
+    text-decoration: none;
+}
+
+
+

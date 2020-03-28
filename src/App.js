@@ -2,25 +2,32 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import { Container } from 'reactstrap';
 
-import { Home, Login, About, Services, Contact} from './pages'; 
+import { Home, Login, Monuments, MonumentImages, Category, Places, PlacesCat, PlaceImages} from './pages'; 
 
-import { NavBar} from './components';
+import { NavBar, SideBar} from './components';
 
 
 
 function App() {
   return (
     <div>
-      <NavBar />
       
+      <NavBar />
+      <SideBar />
       <Container>
+        
+     
       
       <Switch>
       <Route path="/" component={Home} exact />
       <Route path="/login" component={Login} exact />
-      <Route path="/About" component={About} exact />
-      <Route path="/Services" component={Services} exact />
-      <Route path="/Contact" component={Contact} exact />
+      <Route path="/Monuments" component={Monuments} exact />
+      <Route path="/MonumentImages" component={MonumentImages} exact />
+      <Route path="/PlaceImages" component={PlaceImages} exact />
+      <Route path="/Category" component={Category} exact />
+      <Route path="/Places" component={Places} exact />
+      <Route path="/PlacesCat" component={PlacesCat} exact />
+     
       </Switch>
       </Container>
     </div>

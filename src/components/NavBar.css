@@ -1,14 +1,4 @@
-.masthead {
-    height: 100vh;
-    min-height: 500px;
-    background-image: url('../images/pic1.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-bottom: 70px;
-   
-    
-  }
+
   
 
   .nav-link .color {
@@ -24,23 +14,10 @@
 
   }
 
-  .span {
-    color:darkgoldenrod;
-    font-size: 30px;
-    font-weight: bold;
-}
-.text{
-    font-size: 18px;
-    color:gold;
-}
-.welcome {
-    color:gold;
-}
- .lead{
-    color:gold;
- }
+  
+
  span {
-    color:darkgoldenrod;
+  color:rgb(221, 192, 28);
 
  }
   
@@ -48,8 +25,4 @@
 
 
 
- .img{
-     margin-top: 100px;
-     height: 100px;
-
- }
+ 
