@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import { Table,  Button, ButtonGroup} from "reactstrap";
-import { ModalExample} from '../components/modals'
+import { PlacesCatModal} from '../components/modales/PlacesCatModal'
 
 
 import "./Monuments.css";
@@ -9,7 +9,7 @@ import "./Monuments.css";
 class PlacesCat extends Component {
   render() {
     return (
-      <div className="marginTop" >
+      <div className="marginTop col-xs-2" >
 
         <h2>Places Cat</h2>
         <Table borderless>
@@ -92,7 +92,7 @@ class PlacesCat extends Component {
         </Table>
        
 
-        < ModalExample />
+        < PlacesCatModal />
 
       </div>
     );

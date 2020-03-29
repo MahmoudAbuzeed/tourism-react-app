@@ -15,9 +15,7 @@ function App() {
       <NavBar />
       <SideBar />
       <Container>
-        
-     
-      
+       
       <Switch>
       <Route path="/" component={Home} exact />
       <Route path="/login" component={Login} exact />

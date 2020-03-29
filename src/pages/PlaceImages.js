@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import { Table,  Button, ButtonGroup } from "reactstrap";
-import { ModalExample} from '../components/modals'
+import { PlaceImagesModal} from '../components/modales/PlaceImagesModal'
 
 
 import "./Monuments.css";
@@ -9,7 +9,7 @@ import "./Monuments.css";
 class PlaceImages extends Component {
   render() {
     return (
-      <div className="marginTop" >
+      <div className="marginTop col-xs-2" >
 
         <h2>Place Images</h2>
         <Table borderless>
@@ -115,7 +115,7 @@ class PlaceImages extends Component {
         </Table>
        
 
-        < ModalExample />
+        < PlaceImagesModal />
 
       </div>
     );

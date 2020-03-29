@@ -2,14 +2,14 @@ import React, { Component } from "react";
 
 import { Table,  Button, ButtonGroup } from "reactstrap";
 
-import { ModalExample} from '../components/modals'
+import { MonumentsModal} from '../components/modales/MonumentsModal.js'
 
 import "./Monuments.css";
 
 class Monuments extends Component {
   render() {
     return (
-      <div className="marginTop" >
+      <div className="marginTop col-xs-2" >
 
         <h2>Monuments</h2>
         <Table borderless>
@@ -147,7 +147,7 @@ class Monuments extends Component {
           </tbody>
         </Table>
        
-        < ModalExample />
+        < MonumentsModal />
     
    
 

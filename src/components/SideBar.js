@@ -34,6 +34,8 @@ class SideBar extends Component {
         <ListGroupItem className="dark"   action><span>Place Images</span></ListGroupItem>
         </Link>
       </ListGroup>
+
+      
       
     </div>
     </Container>

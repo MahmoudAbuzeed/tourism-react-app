@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import { Table,  Button, ButtonGroup } from "reactstrap";
-import { ModalExample} from '../components/modals'
+import { CategorModal} from '../components/modales/CategoryModal'
 
 
 import "./Monuments.css";
@@ -9,13 +9,13 @@ import "./Monuments.css";
 class Category extends Component {
   render() {
     return (
-      <div className="marginTop" >
+      <div className="marginTop col-xs-2" >
 
         <h2>Category</h2>
         <Table borderless>
-          <thead sm={2}>
+          <thead sm={2}> 
             <tr>
-              <th>ID</th>
+              <th>ID</th> 
               <th> Name </th>
          
             </tr>
@@ -82,7 +82,7 @@ class Category extends Component {
         </Table>
        
 
-        < ModalExample />
+        < CategorModal />
 
       </div>
     );
