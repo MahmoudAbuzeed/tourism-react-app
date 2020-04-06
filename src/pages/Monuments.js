@@ -2,9 +2,10 @@ import React, { Component } from "react";
 
 import { Table,  Button, ButtonGroup } from "reactstrap";
 
-import { MonumentsModal} from '../components/modales/MonumentsModal.js'
+import { MonumentsModal} from '../components/modales/MonumentsModal.js';
 
 import "./Monuments.css";
+import { Link } from "react-router-dom";
 
 class Monuments extends Component {
   render() {
@@ -12,7 +13,7 @@ class Monuments extends Component {
       <div className="marginTop col-xs-2" >
 
         <h2>Monuments</h2>
-        <Table borderless>
+        <Table borderless> 
           <thead sm={2}>
             <tr>
               <th>ID</th>
@@ -34,8 +35,10 @@ class Monuments extends Component {
               <td>Otto</td>
               <td>@mdo</td>
                <ButtonGroup>
+               <Link to="/editMonuments">
                  <Button className="dark"> <span>Update</span></Button>
-                 <Button className="dark"><span>Delete</span></Button>
+                 </Link>    
+                  <Button className="dark"><span>Delete</span></Button>
               </ButtonGroup>
               
               
@@ -49,7 +52,9 @@ class Monuments extends Component {
               <td>Thornton</td>
               <td>@fat</td>
               <ButtonGroup>
+              <Link to="/editMonuments">
                  <Button className="dark"> <span>Update</span></Button>
+                 </Link>
                  <Button className="dark"><span>Delete</span></Button>
               </ButtonGroup>
             </tr>
@@ -62,7 +67,9 @@ class Monuments extends Component {
               <td>the Bird</td>
               <td>@twitter</td>
               <ButtonGroup>
+              <Link to="/editMonuments">
                  <Button className="dark"> <span>Update</span></Button>
+                 </Link>
                  <Button className="dark"><span>Delete</span></Button>
               </ButtonGroup>
             </tr>
@@ -75,7 +82,9 @@ class Monuments extends Component {
               <td>the Bird</td>
               <td>@twitter</td>
               <ButtonGroup>
+              <Link to="/editMonuments">
                  <Button className="dark"> <span>Update</span></Button>
+                 </Link>
                  <Button className="dark"><span>Delete</span></Button>
               </ButtonGroup>
             </tr>
@@ -88,7 +97,9 @@ class Monuments extends Component {
               <td>the Bird</td>
               <td>@twitter</td>
               <ButtonGroup>
+              <Link to="/editMonuments">
                  <Button className="dark"> <span>Update</span></Button>
+                 </Link>
                  <Button className="dark"><span>Delete</span></Button>
               </ButtonGroup>
             </tr>
@@ -101,7 +112,9 @@ class Monuments extends Component {
               <td>the Bird</td>
               <td>@twitter</td>
               <ButtonGroup>
+              <Link to="/editMonuments">
                  <Button className="dark"> <span>Update</span></Button>
+                 </Link>
                  <Button className="dark"><span>Delete</span></Button>
               </ButtonGroup>
             </tr>
@@ -114,7 +127,9 @@ class Monuments extends Component {
               <td>the Bird</td>
               <td>@twitter</td>
               <ButtonGroup>
+              <Link to="/editMonuments">
                  <Button className="dark"> <span>Update</span></Button>
+                 </Link>
                  <Button className="dark"><span>Delete</span></Button>
               </ButtonGroup>
             </tr>
@@ -127,7 +142,9 @@ class Monuments extends Component {
               <td>the Bird</td>
               <td>@twitter</td>
               <ButtonGroup>
+              <Link to="/editMonuments">
                  <Button className="dark"> <span>Update</span></Button>
+                 </Link>
                  <Button className="dark"><span>Delete</span></Button>
               </ButtonGroup>
             </tr>
@@ -140,7 +157,9 @@ class Monuments extends Component {
               <td>the Bird</td>
               <td>@twitter</td>
               <ButtonGroup>
+                <Link to="/editMonuments">
                  <Button className="dark"> <span>Update</span></Button>
+                 </Link>
                  <Button className="dark"><span>Delete</span></Button>
               </ButtonGroup>
             </tr>

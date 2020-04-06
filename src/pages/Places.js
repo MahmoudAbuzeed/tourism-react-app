@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 
 import { Table,  Button, ButtonGroup } from "reactstrap";
-import { PlacesModal} from '../components/modales/PlacesModal'
+import { PlacesModal} from '../components/modales/PlacesModal';
+import { Link } from "react-router-dom";
 
 
 import "./Monuments.css";
@@ -33,8 +34,9 @@ class Places extends Component {
               <td>Mark</td>
               <td>Otto</td>
               <ButtonGroup>
+              <Link to="editPlaces">
                  <Button className="dark"> <span>Update</span></Button>
-                 <Button className="dark"><span>Delete</span></Button>
+                 </Link><Button className="dark"><span>Delete</span></Button>
               </ButtonGroup>
             </tr>
             <tr>
@@ -45,8 +47,9 @@ class Places extends Component {
               <td>Jacob</td>
               <td>Thornton</td>
               <ButtonGroup>
+              <Link to="editPlaces">
                  <Button className="dark"> <span>Update</span></Button>
-                 <Button className="dark"><span>Delete</span></Button>
+                 </Link><Button className="dark"><span>Delete</span></Button>
               </ButtonGroup>
             </tr>
             <tr>
@@ -57,8 +60,9 @@ class Places extends Component {
               <td>Larry</td>
               <td>the Bird</td>
               <ButtonGroup>
+              <Link to="editPlaces">
                  <Button className="dark"> <span>Update</span></Button>
-                 <Button className="dark"><span>Delete</span></Button>
+                 </Link><Button className="dark"><span>Delete</span></Button>
               </ButtonGroup>
             </tr>
             <tr>
@@ -69,8 +73,9 @@ class Places extends Component {
               <td>Larry</td>
               <td>the Bird</td>
               <ButtonGroup>
+              <Link to="editPlaces">
                  <Button className="dark"> <span>Update</span></Button>
-                 <Button className="dark"><span>Delete</span></Button>
+                 </Link><Button className="dark"><span>Delete</span></Button>
               </ButtonGroup>
             </tr>
             <tr>
@@ -81,8 +86,9 @@ class Places extends Component {
               <td>Larry</td>
               <td>the Bird</td>
               <ButtonGroup>
+              <Link to="editPlaces">
                  <Button className="dark"> <span>Update</span></Button>
-                 <Button className="dark"><span>Delete</span></Button>
+                 </Link><Button className="dark"><span>Delete</span></Button>
               </ButtonGroup>
             </tr>
             <tr>
@@ -93,8 +99,9 @@ class Places extends Component {
               <td>Larry</td>
               <td>the Bird</td>
               <ButtonGroup>
+              <Link to="editPlaces">
                  <Button className="dark"> <span>Update</span></Button>
-                 <Button className="dark"><span>Delete</span></Button>
+                 </Link><Button className="dark"><span>Delete</span></Button>
               </ButtonGroup>
             </tr>
             <tr>
@@ -105,8 +112,9 @@ class Places extends Component {
               <td>Larry</td>
               <td>the Bird</td>
               <ButtonGroup>
+              <Link to="editPlaces">
                  <Button className="dark"> <span>Update</span></Button>
-                 <Button className="dark"><span>Delete</span></Button>
+                 </Link><Button className="dark"><span>Delete</span></Button>
               </ButtonGroup>
             </tr>
             <tr>
@@ -117,8 +125,9 @@ class Places extends Component {
               <td>Larry</td>
               <td>the Bird</td>
               <ButtonGroup>
+              <Link to="editPlaces">
                  <Button className="dark"> <span>Update</span></Button>
-                 <Button className="dark"><span>Delete</span></Button>
+                 </Link><Button className="dark"><span>Delete</span></Button>
               </ButtonGroup>
             </tr>
             <tr>
@@ -129,7 +138,9 @@ class Places extends Component {
               <td>Larry</td>
               <td>the Bird</td>
               <ButtonGroup>
+                <Link to="editPlaces">
                  <Button className="dark"> <span>Update</span></Button>
+                 </Link>
                  <Button className="dark"><span>Delete</span></Button>
               </ButtonGroup>
             </tr>

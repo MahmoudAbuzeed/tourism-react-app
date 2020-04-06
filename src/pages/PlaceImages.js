@@ -5,6 +5,7 @@ import { PlaceImagesModal} from '../components/modales/PlaceImagesModal'
 
 
 import "./Monuments.css";
+import { Link } from "react-router-dom";
 
 class PlaceImages extends Component {
   render() {
@@ -19,10 +20,7 @@ class PlaceImages extends Component {
               <th> Place ID</th>
               <th>Image</th>
               <th>Altr </th>
-              <ButtonGroup>
-                 <Button className="dark"> <span>Update</span></Button>
-                 <Button className="dark"><span>Delete</span></Button>
-              </ButtonGroup>
+              
               
             </tr>
           </thead>
@@ -34,8 +32,9 @@ class PlaceImages extends Component {
               <td>@mdo</td>
               
               <ButtonGroup>
+              <Link to='editPlaceImages'>
                  <Button className="dark"> <span>Update</span></Button>
-                 <Button className="dark"><span>Delete</span></Button>
+                 </Link><Button className="dark"><span>Delete</span></Button>
               </ButtonGroup>
               
               
@@ -46,8 +45,9 @@ class PlaceImages extends Component {
               <td>Thornton</td>
               <td>@fat</td>
               <ButtonGroup>
+              <Link to='editPlaceImages'>
                  <Button className="dark"> <span>Update</span></Button>
-                 <Button className="dark"><span>Delete</span></Button>
+                 </Link><Button className="dark"><span>Delete</span></Button>
               </ButtonGroup>
               
               
@@ -59,8 +59,9 @@ class PlaceImages extends Component {
               <td>@twitter</td>
               
               <ButtonGroup>
+              <Link to='editPlaceImages'>
                  <Button className="dark"> <span>Update</span></Button>
-                 <Button className="dark"><span>Delete</span></Button>
+                 </Link><Button className="dark"><span>Delete</span></Button>
               </ButtonGroup>
               
             </tr>
@@ -71,8 +72,9 @@ class PlaceImages extends Component {
               <td>@twitter</td>
               
               <ButtonGroup>
+              <Link to='editPlaceImages'>
                  <Button className="dark"> <span>Update</span></Button>
-                 <Button className="dark"><span>Delete</span></Button>
+                 </Link><Button className="dark"><span>Delete</span></Button>
               </ButtonGroup>
               
             </tr>
@@ -82,8 +84,9 @@ class PlaceImages extends Component {
               <td>the Bird</td>
               <td>@twitter</td>
               <ButtonGroup>
+              <Link to='editPlaceImages'>
                  <Button className="dark"> <span>Update</span></Button>
-                 <Button className="dark"><span>Delete</span></Button>
+                 </Link><Button className="dark"><span>Delete</span></Button>
               </ButtonGroup>
               
               
@@ -94,8 +97,9 @@ class PlaceImages extends Component {
               <td>the Bird</td>
               <td>@twitter</td>
               <ButtonGroup>
+              <Link to='editPlaceImages'>
                  <Button className="dark"> <span>Update</span></Button>
-                 <Button className="dark"><span>Delete</span></Button>
+                 </Link><Button className="dark"><span>Delete</span></Button>
               </ButtonGroup>
               
             </tr>
@@ -105,7 +109,9 @@ class PlaceImages extends Component {
               <td>the Bird</td>
               <td>@twitter</td>
               <ButtonGroup>
+                <Link to='editPlaceImages'>
                  <Button className="dark"> <span>Update</span></Button>
+                 </Link>
                  <Button className="dark"><span>Delete</span></Button>
               </ButtonGroup>
               

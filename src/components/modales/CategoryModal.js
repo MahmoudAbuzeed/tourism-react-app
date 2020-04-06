@@ -30,6 +30,8 @@ const CategorModal = (props) => {
           id="id"
           placeholder="Enter ID"
         />
+        </FormGroup>
+        <FormGroup>
         <Label for="name">Name</Label>
         <Input
           type="text"

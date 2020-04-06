@@ -1,55 +1,41 @@
 import React, { Component } from 'react';
 
+import { Col, Button, Form, FormGroup, Label, Input } from 'reactstrap';
+
+
 import "./Login.css";
+import "../pages/Monuments.css";
+import { Link } from 'react-router-dom';
 
 
 class Login extends Component {
   render(){
     return (
-      <div>
+        <div className="marginTop col-xs-2" >
 
-<div className="container h-100">
-        <div className="row h-100 justify-content-center align-items-center">
-            <form className="col-md-9">
-                <div className="AppForm shadow-lg">
-                    <div className="row">
-                        <div className="col-md-6 d-flex justify-content-center align-items-center">
-                            <div className="AppFormLeft">
-
-                                <h1>Login</h1>
-                                <div className="form-group position-relative mb-4">
-                                    <input type="text" className="form-control border-top-0 border-right-0 border-left-0 rounded-0 shadow-none" id="username"
-                                        placeholder="Username"/>
-                                        <i className="fa fa-user-o"></i>
-                                </div>
-                                <div className="form-group position-relative mb-4">
-                                    <input type="password" className="form-control border-top-0 border-right-0 border-left-0 rounded-0 shadow-none" id="password"
-                                        placeholder="Password"/>
-                                        <i className="fa fa-key"></i>
-
-                                </div>
-                          
-
-                                <button className="btn btn-success btn-block shadow border-0 py-2 text-uppercase ">
-                                    Login
-                                </button>
-
-                            </div>
-
-                        </div>
-                        <div class="col-md-6">
-                            <div class="AppFormRight position-relative d-flex justify-content-center flex-column align-items-center text-center p-5 text-white">
-                                <h2 class="position-relative px-4 pb-3 mb-4">Welcome</h2>
-                                <p>Lorem ipsuing elit. Molomos totam est voluptatum i omos totam est voluptatum i ure sit consectetur ill</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </form>
-        </div>
+        <h2>Login</h2>
+        <Form >
+      <FormGroup row >
+        <Label for="exampleEmail" sm={2} > <h5>Email</h5></Label>
+        <Col sm={6}>
+          <Input type="email" name="email" id="exampleEmail" placeholder="Type email"   />
+        </Col>
+      </FormGroup>
+      <FormGroup row>
+        <Label for="examplePassword" sm={2} xs={2}><h5>Password</h5></Label>
+        <Col sm={6}>
+          <Input type="password" name="password" id="examplePassword" placeholder="Type password"  />
+        </Col>
+      </FormGroup>
+      <FormGroup check row>
+        <Col sm={{ size: 4, offset: 4}} >
+          <Link to='Home'>
+          <Button color="success">Login</Button>
+          </Link>
+        </Col>
+      </FormGroup>
+    </Form>
     </div>
-      </div>
     )
   }
 }

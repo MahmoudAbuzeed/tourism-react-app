@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 
 import { Table,  Button, ButtonGroup} from "reactstrap";
-import { PlacesCatModal} from '../components/modales/PlacesCatModal'
+
+import { PlacesCatModal} from '../components/modales/PlacesCatModal';
 
 
 import "./Monuments.css";
+import { Link } from "react-router-dom";
 
 class PlacesCat extends Component {
   render() {
@@ -27,7 +29,9 @@ class PlacesCat extends Component {
               <td>Mark</td>
               <td>Otto</td>
               <ButtonGroup>
+              <Link to='editPlacesCat'>
                  <Button className="dark"> <span>Update</span></Button>
+                 </Link>
                  <Button className="dark"><span>Delete</span></Button>
               </ButtonGroup>
         
@@ -37,7 +41,9 @@ class PlacesCat extends Component {
               <td>Jacob</td>
               <td>Thornton</td>
               <ButtonGroup>
+              <Link to='editPlacesCat'>
                  <Button className="dark"> <span>Update</span></Button>
+                 </Link>
                  <Button className="dark"><span>Delete</span></Button>
               </ButtonGroup>
        
@@ -47,7 +53,9 @@ class PlacesCat extends Component {
               <td>Larry</td>
               <td>the Bird</td>
               <ButtonGroup>
+              <Link to='editPlacesCat'>
                  <Button className="dark"> <span>Update</span></Button>
+                 </Link>
                  <Button className="dark"><span>Delete</span></Button>
               </ButtonGroup>
             </tr>
@@ -56,7 +64,9 @@ class PlacesCat extends Component {
               <td>Larry</td>
               <td>the Bird</td>
               <ButtonGroup>
+              <Link to='editPlacesCat'>
                  <Button className="dark"> <span>Update</span></Button>
+                 </Link>
                  <Button className="dark"><span>Delete</span></Button>
               </ButtonGroup>
             </tr>
@@ -65,7 +75,9 @@ class PlacesCat extends Component {
               <td>Larry</td>
               <td>the Bird</td>
               <ButtonGroup>
+              <Link to='editPlacesCat'>
                  <Button className="dark"> <span>Update</span></Button>
+                 </Link>
                  <Button className="dark"><span>Delete</span></Button>
               </ButtonGroup>
             </tr>
@@ -74,7 +86,9 @@ class PlacesCat extends Component {
               <td>Larry</td>
               <td>the Bird</td>
               <ButtonGroup>
+              <Link to='editPlacesCat'>
                  <Button className="dark"> <span>Update</span></Button>
+                 </Link>
                  <Button className="dark"><span>Delete</span></Button>
               </ButtonGroup>
             </tr>
@@ -83,7 +97,9 @@ class PlacesCat extends Component {
               <td>Larry</td>
               <td>the Bird</td>
               <ButtonGroup>
+                <Link to='editPlacesCat'>
                  <Button className="dark"> <span>Update</span></Button>
+                 </Link>
                  <Button className="dark"><span>Delete</span></Button>
               </ButtonGroup>
             </tr>

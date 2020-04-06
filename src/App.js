@@ -3,6 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 import { Container } from 'reactstrap';
 
 import { Home, Login, Monuments, MonumentImages, Category, Places, PlacesCat, PlaceImages} from './pages'; 
+import { EditMonuments, EditMonumentImages, EditCategory, EditPlacesCat, EditPlaces, EditPLaceImages} from './pages/editPages';
 
 import { NavBar, SideBar} from './components';
 
@@ -25,6 +26,14 @@ function App() {
       <Route path="/Category" component={Category} exact />
       <Route path="/Places" component={Places} exact />
       <Route path="/PlacesCat" component={PlacesCat} exact />
+      <Route path="/editMonuments" component={EditMonuments} exact />
+      <Route path="/editMonumentImages" component={EditMonumentImages} exact />
+      <Route path="/editCategory" component={EditCategory} exact />
+      <Route path="/editPlacesCat" component={EditPlacesCat} exact />
+      <Route path="/editPlaces" component={EditPlaces} exact />
+      <Route path="/editPlaceImages" component={EditPLaceImages} exact />
+
+
      
       </Switch>
       </Container>

@@ -5,6 +5,7 @@ import { MunumetsImages} from '../components/modales/MonumetsImagesModal'
 
 
 import "./Monuments.css";
+import { Link } from "react-router-dom";
 
 class MonumentImages extends Component {
   render() {
@@ -20,7 +21,9 @@ class MonumentImages extends Component {
               <th>Image</th>
               <th>Altr </th>
               <ButtonGroup>
+              <Link to='editMonumentImages'>
                  <Button className="dark"> <span>Update</span></Button>
+                 </Link>
                  <Button className="dark"><span>Delete</span></Button>
               </ButtonGroup>
               
@@ -34,7 +37,9 @@ class MonumentImages extends Component {
               <td>Otto</td>
               <td>@mdo</td>
               <ButtonGroup>
+              <Link to='editMonumentImages'>
                  <Button className="dark"> <span>Update</span></Button>
+                 </Link>
                  <Button className="dark"><span>Delete</span></Button>
               </ButtonGroup>
              
@@ -47,7 +52,9 @@ class MonumentImages extends Component {
               <td>Thornton</td>
               <td>@fat</td>
               <ButtonGroup>
+              <Link to='editMonumentImages'>
                  <Button className="dark"> <span>Update</span></Button>
+                 </Link>
                  <Button className="dark"><span>Delete</span></Button>
               </ButtonGroup>
               
@@ -60,7 +67,9 @@ class MonumentImages extends Component {
               <td>@twitter</td>
               
               <ButtonGroup>
+              <Link to='editMonumentImages'>
                  <Button className="dark"> <span>Update</span></Button>
+                 </Link>
                  <Button className="dark"><span>Delete</span></Button>
               </ButtonGroup>
               
@@ -71,7 +80,9 @@ class MonumentImages extends Component {
               <td>the Bird</td>
               <td>@twitter</td>
               <ButtonGroup>
+              <Link to='editMonumentImages'>
                  <Button className="dark"> <span>Update</span></Button>
+                 </Link>
                  <Button className="dark"><span>Delete</span></Button>
               </ButtonGroup>
               
@@ -84,7 +95,9 @@ class MonumentImages extends Component {
               <td>@twitter</td>
               
               <ButtonGroup>
+              <Link to='editMonumentImages'>
                  <Button className="dark"> <span>Update</span></Button>
+                 </Link>
                  <Button className="dark"><span>Delete</span></Button>
               </ButtonGroup>
               
@@ -95,7 +108,9 @@ class MonumentImages extends Component {
               <td>the Bird</td>
               <td>@twitter</td>
               <ButtonGroup>
+              <Link to='editMonumentImages'>
                  <Button className="dark"> <span>Update</span></Button>
+                 </Link>
                  <Button className="dark"><span>Delete</span></Button>
               </ButtonGroup>
               
@@ -106,7 +121,9 @@ class MonumentImages extends Component {
               <td>the Bird</td>
               <td>@twitter</td>
               <ButtonGroup>
+                <Link to='editMonumentImages'>
                  <Button className="dark"> <span>Update</span></Button>
+                 </Link>
                  <Button className="dark"><span>Delete</span></Button>
               </ButtonGroup>
               
