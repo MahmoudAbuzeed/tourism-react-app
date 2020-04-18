@@ -47,12 +47,12 @@ const EditPlaces = (props) => {
         />
         </FormGroup>
         <FormGroup>
-        <Label for="name"><h5>Feeds</h5></Label>
+        <Label for="name"><h5>Fees</h5></Label>
         <Input
           type="text"
-          name="feeds"
-          id="feeds"
-          placeholder="Enter Feeds"
+          name="fees"
+          id="fees"
+          placeholder="Enter Fees"
         />
         </FormGroup>
         <FormGroup>

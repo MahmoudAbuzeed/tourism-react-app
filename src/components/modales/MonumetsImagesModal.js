@@ -16,7 +16,7 @@ const MunumetsImages = (props) => {
   return (
     <div>
         <div className="wrapper">
-      <Button className="dark col-md-10" size="lg" block  onClick={toggle}>{buttonLabel} <span>ADD</span></Button>
+      <Button className="dark "  onClick={toggle}>{buttonLabel} <span>ADD MONUMENT IMAGES</span></Button>
       </div>
       
       <Modal isOpen={modal} toggle={toggle} className={className}>

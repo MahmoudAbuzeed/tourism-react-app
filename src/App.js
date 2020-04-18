@@ -5,7 +5,7 @@ import { Container } from 'reactstrap';
 import { Home, Login, Monuments, MonumentImages, Category, Places, PlacesCat, PlaceImages} from './pages'; 
 import { EditMonuments, EditMonumentImages, EditCategory, EditPlacesCat, EditPlaces, EditPLaceImages} from './pages/editPages';
 
-import { NavBar, SideBar} from './components';
+import { NavBar, ControlBar} from './components';
 
 
 
@@ -14,8 +14,9 @@ function App() {
     <div>
       
       <NavBar />
-      <SideBar />
+      
       <Container>
+      <ControlBar />
        
       <Switch>
       <Route path="/" component={Home} exact />

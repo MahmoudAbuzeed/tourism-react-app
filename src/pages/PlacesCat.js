@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import { Table,  Button, ButtonGroup} from "reactstrap";
+import { Table,  Button, ButtonGroup, FormGroup, Col} from "reactstrap";
 
 import { PlacesCatModal} from '../components/modales/PlacesCatModal';
 
@@ -12,8 +12,17 @@ class PlacesCat extends Component {
   render() {
     return (
       <div className="marginTop col-xs-2" >
-
+         <FormGroup row >
+        
+        <Col  >
         <h2>Places Cat</h2>
+       </Col>
+       <Col sm={8}>
+       < PlacesCatModal />
+       </Col>
+     </FormGroup>
+
+        
         <Table borderless>
           <thead sm={2}>
             <tr>
@@ -108,7 +117,7 @@ class PlacesCat extends Component {
         </Table>
        
 
-        < PlacesCatModal />
+        
 
       </div>
     );

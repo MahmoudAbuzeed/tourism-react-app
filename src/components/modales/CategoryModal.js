@@ -15,7 +15,7 @@ const CategorModal = (props) => {
   return (
     <div>
         <div >
-      <Button className="dark col-md-7" size="lg" block  onClick={toggle}>{buttonLabel} <span>ADD</span></Button>
+      <Button className="dark "  onClick={toggle}>{buttonLabel} <span>ADD CATEGORY</span></Button>
       </div>
       
       <Modal isOpen={modal} toggle={toggle} className={className}>

@@ -16,7 +16,7 @@ const MonumentsModal = (props) => {
   return (
     <div>
         <div className="wrapper">
-      <Button className="dark" size="lg" block  onClick={toggle}>{buttonLabel} <span>ADD</span></Button>
+      <Button className="dark" onClick={toggle}>{buttonLabel} <span>ADD MONUMENT</span></Button>
       </div>
       
       <Modal isOpen={modal} toggle={toggle} className={className}>
@@ -44,7 +44,7 @@ const MonumentsModal = (props) => {
         <FormGroup>
         <Label for="name">Description</Label>
         <Input
-          type="text"
+          type="textarea"
           name="description"
           id="description"
           placeholder="Enter Description"

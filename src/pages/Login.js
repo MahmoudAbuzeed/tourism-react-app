@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 class Login extends Component {
   render(){
     return (
-        <div className="marginTop col-xs-2" >
+        <div className="marginTop col-xs-2 " >
 
         <h2>Login</h2>
         <Form >

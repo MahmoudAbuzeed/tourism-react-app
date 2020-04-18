@@ -34,7 +34,7 @@ const EditMonuments = (props) => {
         <FormGroup>
         <Label for="name"><h5>Description</h5></Label>
         <Input
-          type="text"
+          type="textarea"
           name="description"
           id="description"
           placeholder="Enter Description"

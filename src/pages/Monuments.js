@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import { Table,  Button, ButtonGroup } from "reactstrap";
+import { Table,  Button, ButtonGroup, FormGroup, Col} from "reactstrap";
 
 import { MonumentsModal} from '../components/modales/MonumentsModal.js';
 
@@ -10,9 +10,19 @@ import { Link } from "react-router-dom";
 class Monuments extends Component {
   render() {
     return (
-      <div className="marginTop col-xs-2" >
+      <div className="marginTop col-xs-2" > 
+        <FormGroup row >
+        
+         <Col  >
+         <h2 >Monuments</h2>
+        </Col>
+        <Col sm={8}>
+        < MonumentsModal />
+        </Col>
+      </FormGroup>
 
-        <h2>Monuments</h2>
+        
+        
         <Table borderless> 
           <thead sm={2}>
             <tr>
@@ -166,7 +176,7 @@ class Monuments extends Component {
           </tbody>
         </Table>
        
-        < MonumentsModal />
+       
     
    
 
